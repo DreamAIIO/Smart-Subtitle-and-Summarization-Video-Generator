@@ -1,0 +1,26 @@
+[project]
+name = "subtitle-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deep-translator>=1.11.4",
+    "ffmpeg-python>=0.2.0",
+    "google-generativeai>=0.8.5",
+    "gtts>=2.5.4",
+    "langdetect>=1.0.9",
+    "librosa>=0.11.0",
+    "litellm>=1.67.0.post1",
+    "moviepy>=1.0.3",
+    "nltk>=3.9.1",
+    "pyannote-audio>=3.3.2",
+    "pydub>=0.25.1",
+    "pysrt>=1.1.2",
+    "smolagents>=1.13.0",
+    "streamlit>=1.44.1",
+    "sumy>=0.11.0",
+    "torch>=2.6.0",
+    "transformers>=4.51.3",
+    "whisperx>=3.3.2",
+]
